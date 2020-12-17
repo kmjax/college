@@ -2,7 +2,7 @@
 
 #### LINKS
 
-1. This project's page: ( _does not exist, yet!_ ): ---- xhttps://kmjax.surge.sh/hw/2020-12-09_college/
+1. This project's page: [https://www.kmcode.com/kmjax/college/](https://www.kmcode.com/kmjax/college/)
 1. Menu of all projects: [https://kmjax.surge.sh](https://kmjax.surge.sh)
 
 #### DESCRIPTION
