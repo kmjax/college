@@ -28,11 +28,11 @@ _NOTE: Since these live assignment pages are stored on Surge.sh, static images o
 - [ ] Login Page
 - [ ] Logout Page
 - [ ] Student Portal with the following features:
-- --- [ ] Dashboard
-- --- [ ] Course Registration add/drop
-- --- [ ] Edit Personal Data
-- --- [ ] View Financial Data
-- --- [ ] Logout
+- [ ] --- Dashboard
+- [ ] --- Course Registration add/drop
+- [ ] --- Edit Personal Data
+- [ ] --- View Financial Data
+- [ ] --- Logout
 
 ##### FEATURES
 
