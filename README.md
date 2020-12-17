@@ -2,7 +2,7 @@
 
 #### LINKS
 
-1. This project's page: [https://www.kmcode.com/kmjax/college/](https://www.kmcode.com/kmjax/college/)
+1. This project's LIVE page: [https://www.kmcode.com/kmjax/college/](https://www.kmcode.com/kmjax/college/)
 1. Menu of all projects: [https://kmjax.surge.sh](https://kmjax.surge.sh)
 
 #### DESCRIPTION
@@ -11,19 +11,18 @@ Create a responsive website for a university that contains the following pages a
 
 #### STATUS
 
-LOTS TO DO! Project initiated on 2020-12-16.
+1% Completed. An initial home page has been created. LOTS OF REMAINING WORK TO DO! 
 
 #### PREVIOUS STATUS MESSAGES
 
-- None yet
+- Project initiated on 2020-12-16.
 
-_NOTE: Since these live assignment pages are stored on Surge.sh, static images of the webpage output are displayed instead of a live page. This is due to Surge.sh not being able to host dynamic PHP web pages._
 
 #### FURTHER DETAILED LIST OF OBJECTIVES TO COMPLETE:
 
 ##### PAGES
 
-- [ ] Home Page
+- [X] Home Page
 - [ ] Registration Page
 - [ ] Login Page
 - [ ] Logout Page

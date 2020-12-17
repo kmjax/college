@@ -1,0 +1,65 @@
+body {
+  background-color: sienna;
+  padding: 25px;
+}
+
+header {
+  background-color: saddlebrown;
+  color: wheat;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+  box-shadow: 2px 2px 7px #222222;
+}
+
+#col-reg-login {
+  text-align: right;
+}
+
+#reg-login-link {
+  color: skyblue;
+}
+
+#reg-login-link:hover {
+  color: blue;
+  text-decoration: none;
+}
+
+main {
+  background-color: sandybrown;
+  margin-top: 0px;
+  padding: 50px 25px 25px 25px;
+
+  box-shadow: 2px 2px 7px #222222;
+}
+
+#title-text {
+  padding-bottom: 50px;
+}
+
+#learn-more-text {
+  margin-bottom: 50px;
+}
+
+.blurb-box {
+  background-color: saddlebrown;
+  color: wheat;
+  text-align: center;
+  padding: 15px 25px;
+  box-shadow: 2px 2px 7px #222222;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+footer {
+  background-color: saddlebrown;
+  color: wheat;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 5px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 2px 2px 7px #222222;
+}
