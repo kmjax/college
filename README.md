@@ -11,10 +11,11 @@ Create a responsive website for a university that contains the following pages a
 
 #### STATUS
 
-1% Completed. An initial home page has been created. LOTS OF REMAINING WORK TO DO! 
+~3% Completed as of 2020-12-18. The portal login screen was created. It's just a screen; the login is not processed yet. LOTS OF REMAINING WORK TO DO! 
 
 #### PREVIOUS STATUS MESSAGES
 
+- 1% Completed. An initial home page has been created.
 - Project initiated on 2020-12-16.
 
 
@@ -24,7 +25,7 @@ Create a responsive website for a university that contains the following pages a
 
 - [X] Home Page
 - [ ] Registration Page
-- [ ] Login Page
+- [X] Login Page
 - [ ] Logout Page
 - [ ] Student Portal with the following features:
 - [ ] --- Dashboard
@@ -36,7 +37,7 @@ Create a responsive website for a university that contains the following pages a
 ##### FEATURES
 
 - [ ] Is Responsive
-- [ ] Themed to be "college-y"
+- [X] ~~Themed to be "college-y"~~
 - [ ] Written PHP
 - [ ] Stores data in MySQL database
 - [ ] Login verfies the password
