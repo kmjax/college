@@ -59,7 +59,7 @@
                 </tr>
                 <tr>
                   <td></td>
-                  <td><button type="submit" name="loginButton" id="login-button">Login</button></td>
+                  <td><button type="submit" name="loginButton" class="login-regis-button" id="login-button">Login</button></td>
                 </tr>
                 <tr>
                   <td colspan="2"><hr id="login-hr"></td>
@@ -74,7 +74,7 @@
               <table>
                 <tr>
                   <td><p class="login-label">Register a new account:</p></td>
-                  <td><button type="submit" name="registrationButton" id="registration-button">Registration</button></td>
+                  <td><button type="submit" name="registrationButton" class="login-regis-button" id="registration-button">Registration</button></td>
                 </tr>
               </table>
             </form>

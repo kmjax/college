@@ -11,10 +11,11 @@ Create a responsive website for a university that contains the following pages a
 
 #### STATUS
 
-~3% Completed as of 2020-12-18. The portal login screen was created. It's just a screen; the login is not processed yet. LOTS OF REMAINING WORK TO DO! 
+~10% Completed as of 2020-12-19. Registration form created along with all database tables and some sample data rows for each table. The registration form is just a screen; no data saved yet. STILL LOTS OF REMAINING WORK TO DO! 
 
 #### PREVIOUS STATUS MESSAGES
 
+- ~3% Completed as of 2020-12-18.
 - 1% Completed. An initial home page has been created.
 - Project initiated on 2020-12-16.
 
@@ -24,7 +25,7 @@ Create a responsive website for a university that contains the following pages a
 ##### PAGES
 
 - [X] Home Page
-- [ ] Registration Page
+- [X] Registration Page
 - [X] Login Page
 - [ ] Logout Page
 - [ ] Student Portal with the following features:
@@ -38,20 +39,20 @@ Create a responsive website for a university that contains the following pages a
 
 - [ ] Is Responsive
 - [X] ~~Themed to be "college-y"~~
-- [ ] Written PHP
+- [X] Written PHP
 - [ ] Stores data in MySQL database
 - [ ] Login verfies the password
 
 ##### REQUIREMENTS
 
-- [ ] Registration must collect and store the following fields: username, first and last name, email address, phone number, street address, street address 2, city, state (must be a dropdown), postal code, gender, user photo, notes, and i agree checkbox
+- [ ] Registration must collect and store the following fields: username (email address), first and last name, phone number, street address, street address 2, city, state (must be a dropdown), postal code, gender, user photo, notes, i agree checkbox, and a password
 - [ ] Registration allows user to upload their picture
-- [ ] Registration has a text area for notes and special needs
+- [X] Registration has a text area for notes and special needs
 - [ ] Registration requires a user click the "I agree" checkbox
 - [ ] Registration must sanitize data
 - [ ] Registration must encrypt the password
 - [ ] Registration must verify password (two fields must match)
-- [ ] Database must have tables to store students, courses, and student/course selections
+- [X] Database must have tables to store students, courses, and student/course selections
 - [ ] Upon successful registration, a welcome message should be displayed
 - [ ] Upon successful registration, a welcome email should be sent with a link verification (non-functional)
 - [ ] Website should use PHP session variables instead of passing data between forms via hidden fields
