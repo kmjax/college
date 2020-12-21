@@ -86,6 +86,15 @@ main {
   padding: 2px 10px;
 }
 
+.login-regis-button:hover {
+  color: skyblue;
+}
+
+.login-regis-button:disabled {
+  background-color: #888888;
+  color: #dedede;
+}
+
 #login-hr {
   border: 3px solid saddlebrown;
   margin-top: 30px;
@@ -117,4 +126,16 @@ footer {
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   box-shadow: 2px 2px 7px #222222;
+}
+
+.input-field-issue {
+  background-color: lightpink;
+}
+
+.password-field-issue {
+  background-color: salmon;
+}
+
+.please-acknowledge {
+  color: red;
 }

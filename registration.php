@@ -50,11 +50,11 @@
         </div>
         <div class="row">
           <div class="col-lg-12" id="login-area">
-            <form action="process-login.php" method="POST">
+            <form action="register_user.php" method="POST" id="registrationForm">
               <table>
                 <tr>
                   <td><p class="login-label">Username (email):</p></td>
-                  <td><input type='text' name='userName' size='32' class='login-input-text' value=''></td>
+                  <td><input type='text' name='userName' size='32' class='login-input-text' id='user-name' value=''></td>
                 </tr>
                 <tr>
                   <td><p class="login-label">First name:</p></td>
@@ -89,14 +89,14 @@
                   <td><input type='text' name='zipCode' size='10' class='login-input-text' id="zip-code" value=''></td>
                 </tr>
                 <tr>
-                  <td><p class="login-label">Gender:</p></td>
+                  <td><p class="login-label" id="gender-label">Gender:</p></td>
                   <td>
-                    <input type="radio" id="gender-male" name="gender" value="M">
-                    <label for="gender-male" class="radio-label">Male</label>&nbsp;&nbsp;&nbsp;&nbsp;
-                    <input type="radio" id="gender-female" name="gender" value="F">
-                    <label for="gender-female" class="radio-label">Female</label>&nbsp;&nbsp;&nbsp;&nbsp;
-                    <input type="radio" id="gender-other" name="gender" value="X">
-                    <label for="gender-other" class="radio-label">Other</label>
+                    <input type="radio" id="gender-male" name="gender" id="gender-male" value="M">
+                    <label for="gender-male" class="radio-label" id="gender-male-label">Male</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" id="gender-female" name="gender" id="gender-female" value="F">
+                    <label for="gender-female" class="radio-label" id="gender-female-label">Female</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" id="gender-other" name="gender" id="gender-other" value="X">
+                    <label for="gender-other" class="radio-label" id="gender-other-label">Other</label>
                   </td>
                 </tr>
                 <tr>
@@ -109,15 +109,15 @@
                 </tr>
                 <tr>
                   <td><p class="login-label">Password:</p></td>
-                  <td><input type='text' name='userPassword' size='32' class='login-input-text' value=''></td>
+                  <td><input type='text' name='userPassword' size='32' class='login-input-text' id='user-password' value=''></td>
                 </tr>
                 <tr>
                   <td><p class="login-label">Verify:</p></td>
-                  <td><input type='text' name='verifyPassword' size='32' class='login-input-text' value=''></td>
+                  <td><input type='text' name='verifyPassword' size='32' class='login-input-text' id='verify-password' value=''></td>
                 </tr>
                 <tr>
-                  <td><p class="login-label">Acknowledge:</p></td>
-                  <td><input type='checkbox' name='iAgreeBox' value='agree'>
+                  <td><p class="login-label" id="acknowledge-label">Acknowledge:</p></td>
+                  <td><input type='checkbox' name='iAgreeBox' id='i-agree-box' value='agree'>
                   <label for="iAgreeBox" class="checkbox-label">I agree to the <a href="#" class="terms-link">terms and conditions</a> of this site.</label></td>
                 </tr>
                 <tr>
@@ -140,5 +140,6 @@
         </div>
       </div>
     </footer>
+    <script src="regform_validation.js"></script>
   </body>
 </html>
